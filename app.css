@@ -1,0 +1,44 @@
+html {
+    height: 100%
+}
+
+
+body {
+    background-image: url(./img/finance-juventus.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card {
+    background-color: aqua;
+}
+
+
+.rate {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.rate > * {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.rate-item-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+.rate-item-value {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.rate-item-value.top {
+    color: rgb(255, 51, 51);
+}
+
+.rate-item-value.bottom {
+    color: rgb(19, 189, 61);
+}
