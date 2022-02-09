@@ -18,4 +18,4 @@ const getData = async () => {
   itemGBP.textContent = rates.GBP.Value.toFixed(2);
 };
 
-getData();
+getData();  
